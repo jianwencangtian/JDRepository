@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*main部分开始*/
+
+#nav{
+    border: 1px solid #000;
+}
+
+.main-slider{
+    float: left;
+    width: 730px;
+    height: 454px;
+    margin: 12px 0 0 220px;
+    position: relative;
+}
+.main-slider ul{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -66px ;
+}
+.main-slider li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    background-color: #3e3e3e;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+li.current{
+    background-color: red;
+}
+.main-news{
+    float: right;
+}
+.main-news-top{
+    margin-top: 12px;
+    margin-bottom:5px;
+    width: 248px;
+    height: 372px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+.main-news a.main-news-bottom{
+    background-color: yellowgreen;
+    display: block;
+    width: 250px;
+    height: 75px;
+}
+.arrow a{
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 28px;
+    height: 62px;
+    background: rgba(0,0,0,0.2);
+    /*opacity: 0.3;*/
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font: 400 22px/62px "simsun";
+}
+.arrow a:hover{
+    background: rgba(0,0,0,0.4);
+}
+.arrow-left{
+    left: 0;
+}
+.arrow-right{
+    right: 0;
+}
+
+.main{
+    position: relative;
+}
+
+.main-news-top-faster{
+    height: 163px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.main-news-top-title{
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e8e8e7;
+}
+.main-news-top-title h3{
+    float: left;
+    font: 400 16px/32px "microsoft yahei";
+}
+.main-news-top-title a{
+    float: right;
+    font-family: Consolas;
+}
+.main-news-top-content{
+    padding: 5px 0 0 15px;
+}
+.main-news-top-content{
+    line-height: 24px;
+}
+.main-news-top-content span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.main-news-top-money ul{
+    width:260px;
+}
+.main-news-top-money li{
+    float: left;
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e8e8e7;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top: 0;
+}
+.main-news-top-money a{
+    display: block;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+}
+.main-news-top-money i{
+    position: absolute;
+    left: 18px;
+    top: 13px;
+    width: 25px;
+    height: 25px;
+    background: url("../images/fly.png") no-repeat;
+}
+.main-news-top-money .main-news-top-money-icon2{
+    background-position: 0 -25px;
+}
+.main-news-top-money .main-news-top-money-icon3{
+    background-position: 0 -50px;
+}
+.main-news-top-money .main-news-top-money-icon4{
+    background-position: 0 -75px;
+}
+
+.show{
+    background: url(../images/mian.png) no-repeat left top;
+}
+
+/*today部分开始*/
+.today{
+    padding: 10px 0 20px;
+    position: relative;
+}
+.today-left{
+    float: left;
+}
+.today-left a{
+    display: block;
+    width: 210px;
+    height: 150px;
+    background: url("../images/night.jpg") no-repeat right bottom;
+}
+.today-right{
+    width: 1000px;
+    height: 150px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.today-right ul{
+    width: 410%
+}
+.today-right li{
+    float: left;
+    margin-right: 1px;
+}
+
+/*bub-banner部分开始*/
+.bub-banner{
+    position: relative;
+}
+.bub-banner a{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 644px;
+    background: url("../images/subbanner.jpg") no-repeat center top;
+
+}
+
+
+
+
+
+
+
+
+
+
+
